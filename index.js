@@ -4,11 +4,11 @@
 // Copy / paste the below script into the JavaScript console.
 // If you're in a DM you will receive a 403 error for every message the other user sent (you don't have permission to delete their messages).
 
-var before = 'LAST_MESSAGE_ID';
+var before = '681993335665328196';
 clearMessages = function(){
 	const channel = window.location.href.split('/').pop();
 	const baseURL = `https://discordapp.com/api/channels/${channel}/messages`;
-	const headers = {"Authorization": "YOUR TOKEN HIER" };
+	const headers = {"Authorization": "NDUwMjg3ODU0NjgyMjQzMDcz.Xmg6Jg.1GsBfx1zyoApt_1kpUp3ebaYCO4" };
 
 	let clock = 0;
 	let interval = 500;
